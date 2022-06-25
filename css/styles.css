@@ -762,7 +762,21 @@ margin-bottom: 0;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-button{
+    position: absolute;
+    top: 8px;
+    right: 8px;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 /* .bottom-link {
     display: block;
